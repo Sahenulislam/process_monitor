@@ -14,12 +14,20 @@ To use Process Monitor, you need to have Rust installed on your system. You can 
 
 Once Rust is installed, you can clone this repository and build the project using Cargo, Rust's package manager and build system:
 
-```bash
+``bash
 git clone https://github.com/Sahenulislam/process_monitor.git
 cd process_monitor
 cargo build --release
 
+
 ## Usage
+
 Run the compiled executable with the path to the JSON file containing monitor data as a command-line argument:
-command: ./target/release/process_monitor -monitorFile path/to/your/monitors.json
+
+``bash
+./target/release/process_monitor -monitorFile path/to/your/monitors.json
+
+
+
+
 
