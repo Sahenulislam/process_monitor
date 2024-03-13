@@ -18,3 +18,8 @@ Once Rust is installed, you can clone this repository and build the project usin
 git clone https://github.com/yourusername/your-repository.git
 cd process_monitor
 cargo build --release
+
+## Usage
+Run the compiled executable with the path to the JSON file containing monitor data as a command-line argument:
+command: ./target/release/process_monitor -monitorFile path/to/your/monitors.json
+
