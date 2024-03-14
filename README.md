@@ -4,10 +4,10 @@ Process Monitor is a Rust command-line tool for generating random results for mo
 
 ## Features
 
-- Flexible Configuration: Allows users to specify monitors in a JSON file, including name, script path (if applicable), monitor type, and unique code.
-- Real-time Monitoring: Utilizes threads to update monitor results at defined intervals.
-- Data Storage: Periodically stores monitor data in JSON files with timestamps for future analysis.
-- Concurrency: Utilizes Arc and Mutex for safe concurrent access to shared data structures.
+Flexible Configuration: Allows users to specify monitors in a JSON file, including name, script path (if applicable), monitor type, and unique code.
+Real-time Monitoring: Utilizes threads to update monitor results at defined intervals.
+Data Storage: Periodically stores monitor data in JSON files with timestamps for future analysis.
+Concurrency: Utilizes Arc and Mutex for safe concurrent access to shared data structures.
 
 ## Installation
 
