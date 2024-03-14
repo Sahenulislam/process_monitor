@@ -12,7 +12,8 @@ struct Monitor {
     monitor_id: Option<i32>,
     name: String,
     script: Option<String>,
-    _type: Option<String>,
+    #[serde(rename = "type")]
+    monitor_type: Option<String>,
     result: Option<Result>,
     code: String,
 }
